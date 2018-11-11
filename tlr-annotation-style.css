@@ -7,5 +7,11 @@
 span.tlr-change-annotation {
     font-weight: bold;
     color: #a00;
+    display: inline;
+}
+
+div.leftnavMasterDiv div div div span.tlr-change-annotation {
+    display: inline;
+    margin-left: 2px;
 }
 
