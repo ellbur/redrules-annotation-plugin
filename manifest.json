@@ -1,0 +1,16 @@
+{
+    "name": "tlr-redrules-annotation",
+	"description": "Annotates the Bluebook website with TLR alterations",
+	"version": "1.0.0",
+    "manifest_version": 2,
+    "permissions": [
+        "https://www.legalbluebook.com/*"
+    ],
+    "content_scripts": [
+		{
+			"matches": ["https://www.legalbluebook.com/*"],
+			"js": ["third-party/jquery-3.1.1.min.js", "contentscript.js"],
+			"css": ["tlr-annotation-style.css"]
+		}
+	]
+}
